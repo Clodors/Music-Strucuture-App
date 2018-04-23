@@ -1,0 +1,53 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2cd3ff"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicalstructureapp.MainActivity">
+
+    <TextView
+        android:textStyle="bold"
+        style="@style/category"
+        android:layout_weight="1"
+        android:id="@+id/POP"
+        android:background="#FFFF00"
+        android:text="@string/Theme_1" />
+
+    <TextView
+        android:textStyle="bold"
+        style="@style/category"
+        android:layout_weight="1"
+        android:id="@+id/HIP_HOP"
+        android:background="#039BE5"
+        android:text="@string/Theme_2" />
+
+    <TextView
+        android:textStyle="bold"
+        style="@style/category"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:id="@+id/ROCK"
+        android:background="#AEEA00"
+        android:text="@string/Theme_3" />
+
+    <TextView
+        android:textStyle="bold"
+        style="@style/category"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:id="@+id/ELECTRO"
+        android:background="#ffc043"
+        android:text="@string/Theme_4" />
+
+    <TextView
+        android:textStyle="bold"
+        style="@style/category"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:id="@+id/RNB"
+        android:background="#FF3D00"
+        android:text="@string/Theme_5" />
+
+</LinearLayout>
