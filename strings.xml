@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Musical Structure App</string>
+    <string name="Theme_1">POP</string>
+    <string name="Theme_2">HIP_HOP</string>
+    <string name="Theme_3">ROCK</string>
+    <string name="Theme_4">ELECTRO</string>
+    <string name="Theme_5">RNB</string>
+    <string name="Playing_Title">Song you hear</string>
+    <string name="Playing_Interpret">Interpret</string>
+</resources>
